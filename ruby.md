@@ -5,23 +5,25 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. In what ways are JavaScript and Ruby similar? In what ways are they different?
 
-  Your answer:
+  Your answer: they are both object oriented and but ruby syntax  is easier.
 
   Researched answer:
-
+both are object oriented however javascript is a front end programing 
+language whie ruby is back end ruby can be hard to debug and javascript 
+is easier to scale up.
 
 
 2. What is a hash?
 
-  Your answer:
+  Your answer: a key value pair
 
-  Researched answer:
+  Researched answer: A Hash assigns values to keys, so that values can be looked up by their key.
 
 
 
 3. What is the testing framework used in Ruby? Describe the process of setting up the testing environment.
 
-  Your answer:
+  Your answer: rspec
 
   Researched answer:
 
@@ -39,7 +41,12 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer:
 
-  Researched answer:
+  Researched answer:An instance variable has a name beginning with @, 
+  and its scope is confined to whatever object self refers to. Two different objects, 
+  even if they belong to the same class, are allowed to have different values for their instance variables.
+  From outside the object, instance variables cannot be altered or even observed 
+  (i.e., ruby's instance variables are never public) except by whatever methods are explicitly provided by the programmer. 
+  As with globals, instance variables have the nil value until they are initialized.
 
 
 
@@ -51,11 +58,11 @@ Answer the following questions. First, without external resources. Challenge you
 
 Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Ruby:
 
-1)
+1) a method of not caring about the actual type of a variable, just relying on what methods it supports is known as “Duck Typing”
 
-2)
+2)puts always returns nil
 
-3)
+3)In Ruby, anything on a line after a hash mark is a comment and is ignored by the interpreter
 
 
 7. STRETCH: What are blocks, procs, and lambdas?
